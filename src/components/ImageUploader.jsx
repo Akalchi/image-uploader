@@ -29,6 +29,7 @@ function ImageUploader() {
           <ImagePreview key={img.id} image={img} onDelete={handleDelete} />
         ))}
       </div>
+      <div>Hola buenas tardes</div>
     </div>
   );
 }
